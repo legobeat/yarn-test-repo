@@ -8,5 +8,14 @@ __metadata:
 "yarn-test-repo@workspace:.":
   version: 0.0.0-use.local
   resolution: "yarn-test-repo@workspace:."
+  dependencies:
+    yuge-slow-npm-pkg: "git+https://github.com/legobeat/yuge-slow-npm-pkg#light"
   languageName: unknown
   linkType: soft
+
+"yuge-slow-npm-pkg@git+https://github.com/legobeat/yuge-slow-npm-pkg#light":
+  version: 1.0.0
+  resolution: "yuge-slow-npm-pkg@https://github.com/legobeat/yuge-slow-npm-pkg.git#commit=6940e29e44922456ab581090aab8015c23b55be0"
+  checksum: 10c0/1afc62a979afc6ea42a644b3e0527b1381c66ecff6e34b64e99145d866aacad5af68ede2dcb203e8e2605a832abd56c654191758b7af354fdcd9873382e7092a
+  languageName: node
+  linkType: hard

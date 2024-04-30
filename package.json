@@ -3,5 +3,8 @@
   "scripts": {
     "test": "echo ok"
   },
+  "dependencies": {
+    "yuge-slow-npm-pkg": "git+https://github.com/legobeat/yuge-slow-npm-pkg#light"
+  },
   "packageManager": "yarn@4.1.1"
 }
