@@ -1,4 +1,7 @@
 {
   "name": "yarn-test-repo",
+  "scripts": {
+    "test": "echo ok"
+  },
   "packageManager": "yarn@4.1.1"
 }
