@@ -6,5 +6,5 @@
   "dependencies": {
     "yuge-slow-npm-pkg": "git+https://github.com/legobeat/yuge-slow-npm-pkg#light"
   },
-  "packageManager": "yarn@4.1.1"
+  "packageManager": "yarn@3.8.3"
 }
